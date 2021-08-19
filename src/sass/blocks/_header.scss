@@ -1,0 +1,112 @@
+.promo {
+    position: relative;
+    padding: 51px 0 0 0;
+    height: 660px;
+    background: #E5E5E5 url('../img/bg.png') center no-repeat;
+}
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0 auto;
+    width: 1100px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    &__logo {
+        padding: 18px 0 18px 40px;
+
+        
+    }
+    &__block {
+        width: 610px;
+        margin: 22px 50px 21px 0;
+        &-white {
+            padding: 0;
+            margin: 45px auto;
+            width: 530px;
+        }
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+	    list-style-type: none;
+    }
+    &__item {
+        margin: 0;
+        width: 80px;
+        margin: 0;
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    &__link {
+        text-decoration: none;
+        color: #1B3E41;
+        &-red {
+            color: #DF453E;
+        }
+        &-white {
+            color: #fff;
+        }
+    }
+    &__contact {
+        display: flex;
+        justify-content: end;
+        top: 106px;
+        left: 0;
+        width: 900px;
+        height: 100px;
+    }
+    &__text {
+        margin-left: 30px;
+        margin-right: 26px;
+        width: 167px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1B3E41;
+        span {
+            color: #DF453E;
+        }
+    }
+    &__phone{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        
+        &-img {
+           margin: 30px 0 30px 0;
+        }
+        &-link{
+            margin: 40px 0 40px 20px;
+            width: 300px;
+            height: 22px;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #1B3E41;
+
+
+        }
+    }
+}
+.group_2 {
+    position: relative;
+    top: 152px;
+    left: 50px;
+    width: 70px;
+    height: 13px;
+}
+.group {
+    position: relative;
+    top: 138px;
+    left: 1080px;
+    width: 70px;
+    height: 13px;
+    
+}    

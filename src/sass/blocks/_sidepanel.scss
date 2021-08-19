@@ -1,0 +1,39 @@
+.sidepanel {
+    position: relative;
+    width: 30px;
+    top: -60px;
+    left: 1165px;
+    height: 90px;
+    z-index: 3;
+    &__social {
+        background: #DF453E;
+        margin-bottom: 1px;
+        height:30px;
+        width: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-link {
+            margin-left: 10px;
+            &-red {
+                background: #fff;
+                position: relative;
+                left: -20px;
+            }
+        }
+    }
+    &__item {
+        display: flex;
+        height: 30px;
+        width: 120px;
+        top: 0;
+        left: 21px;
+        &-red {
+            display: flex;
+            margin: 0 auto;
+       
+           
+        }
+    }    
+}

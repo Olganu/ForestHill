@@ -1,0 +1,50 @@
+.subscribe {
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    width: 1100px;
+    height: 200px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    &__text {
+        padding: 77px 0 75px 65px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: #1B3E41;
+       
+
+    }
+    &__textarea {
+        display: grid;
+        grid-template-columns: 235px 178px;
+        margin: 75px 66px 70px 0;
+        border: 1px solid #D4D9D9;
+        box-sizing: border-box;
+        //width: 413px;
+        textarea {
+            background: #EFF2F2;
+            width: 235px;
+            height: 55px;
+            padding: 18px 0 20px 20px;
+            font-size: 14px;
+            line-height: 17px;
+            color: #97ADAF;
+            resize: none;
+        }
+    }
+    &__button {
+        background: #1B3E41;
+        width: 178px;
+        height: 55px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        position: relative;
+        left: 3;
+        top: 23;
+    }
+}    

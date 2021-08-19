@@ -1,0 +1,33 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #97ADAF;
+    cursor: pointer;
+    &__info {
+        top: -60px;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 17px;
+        width: 180px;
+        height: 40px;
+        background: #1B3E41;
+        &-green {
+            margin: 21px 0 0 270px;
+        }
+        &-red {
+            background: #DF453E;
+            color: #FFFFFF;
+            margin: 110px 270px 0 0;
+        }
+    }
+    &__contacts {
+        width: 150px;
+        margin-right: 40px;
+        top: 0;
+    }
+}
